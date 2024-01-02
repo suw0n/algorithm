@@ -15,7 +15,6 @@ public class 전화번호_목록 {
         for (String phone : phone_book) {
 
             for(int i = 1; i<phone.length(); i++) {
-                System.out.println(phone.substring(0, i));
                 if(map.containsKey(phone.substring(0, i))) {
                     return false;
                 }
