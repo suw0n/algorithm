@@ -1,4 +1,4 @@
-package map;
+package programmers.map;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -62,7 +62,7 @@ public class 전화번호_목록 {
 /*
 *                 for(int j = i+1; j<=phone.length(); j++) {
                     System.out.println(phone.substring(i, j));
-                    if(map.containsKey(phone.substring(i, j))) {
+                    if(programmers.map.containsKey(phone.substring(i, j))) {
                         return false;
                     }
                 }
